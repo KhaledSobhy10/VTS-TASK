@@ -94,4 +94,6 @@ BEGIN
     END IF
 
 ### 6.4 sequence diagram
-	![enter image description here](https://raw.githubusercontent.com/KhaledSobhy10/VTS-TASK/refs/heads/main/sq-digram.drawio.png)
+	
+
+![sequence diagram](https://raw.githubusercontent.com/KhaledSobhy10/VTS-TASK/refs/heads/main/sq-digram.drawio.png)
