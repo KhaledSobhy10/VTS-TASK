@@ -1,0 +1,84 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="1lnVmUnbmiiLf655EhJa">
+    <mxGraphModel dx="1373" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5Wz4GAfQbTcKf-RnoHdJ-149" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value=":Employee" vertex="1">
+          <mxGeometry height="490" width="100" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5Wz4GAfQbTcKf-RnoHdJ-150" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value=":Exist Auth service" vertex="1">
+          <mxGeometry height="480" width="100" x="200" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5Wz4GAfQbTcKf-RnoHdJ-151" edge="1" parent="1" source="5Wz4GAfQbTcKf-RnoHdJ-149" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="5Wz4GAfQbTcKf-RnoHdJ-150" value="login">
+          <mxGeometry relative="1" width="80" x="-0.1187" as="geometry">
+            <Array as="points">
+              <mxPoint x="184.75" y="120" />
+            </Array>
+            <mxPoint x="120" y="120" as="sourcePoint" />
+            <mxPoint x="200" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Wz4GAfQbTcKf-RnoHdJ-152" edge="1" parent="1" source="5Wz4GAfQbTcKf-RnoHdJ-150" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="5Wz4GAfQbTcKf-RnoHdJ-149" value="redirect to VTS page or error&amp;nbsp;">
+          <mxGeometry relative="1" x="-0.0062" as="geometry">
+            <mxPoint x="1" as="offset" />
+            <Array as="points">
+              <mxPoint x="194.75" y="160" />
+            </Array>
+            <mxPoint x="220" y="160" as="sourcePoint" />
+            <mxPoint x="140" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Wz4GAfQbTcKf-RnoHdJ-153" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value=":VTS" vertex="1">
+          <mxGeometry height="480" width="100" x="360" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5Wz4GAfQbTcKf-RnoHdJ-154" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="5Wz4GAfQbTcKf-RnoHdJ-153" value="nav to request list page">
+          <mxGeometry relative="1" width="80" x="0.4397" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+            <mxPoint x="90" y="200" as="sourcePoint" />
+            <mxPoint x="170" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Wz4GAfQbTcKf-RnoHdJ-155" edge="1" parent="1" source="5Wz4GAfQbTcKf-RnoHdJ-153" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="5Wz4GAfQbTcKf-RnoHdJ-149" value="return list of requests">
+          <mxGeometry relative="1" x="-0.5062" as="geometry">
+            <Array as="points">
+              <mxPoint x="349.75" y="240" />
+            </Array>
+            <mxPoint x="370" y="240" as="sourcePoint" />
+            <mxPoint x="290" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Wz4GAfQbTcKf-RnoHdJ-156" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="5Wz4GAfQbTcKf-RnoHdJ-153" value="withdraw after confirmation&amp;nbsp;">
+          <mxGeometry relative="1" width="80" x="-0.374" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+            <mxPoint x="90" y="280" as="sourcePoint" />
+            <mxPoint x="170" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Wz4GAfQbTcKf-RnoHdJ-157" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="5Wz4GAfQbTcKf-RnoHdJ-149" value="return list page with updated data">
+          <mxGeometry relative="1" x="-0.1264" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+            <mxPoint x="410" y="320" as="sourcePoint" />
+            <mxPoint x="330" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Wz4GAfQbTcKf-RnoHdJ-159" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value=":Email server" vertex="1">
+          <mxGeometry height="470" width="100" x="510" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5Wz4GAfQbTcKf-RnoHdJ-160" edge="1" parent="1" source="5Wz4GAfQbTcKf-RnoHdJ-149" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" value="Send notification to manager">
+          <mxGeometry relative="1" width="80" x="0.6174" as="geometry">
+            <mxPoint x="1" as="offset" />
+            <Array as="points">
+              <mxPoint x="324.75" y="360" />
+            </Array>
+            <mxPoint x="480" y="360" as="sourcePoint" />
+            <mxPoint x="560" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
